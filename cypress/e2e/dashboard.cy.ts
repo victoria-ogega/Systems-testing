@@ -60,6 +60,9 @@ describe("Dashboard Page", () => {
     cy.contains(/Cancelled/i).should("exist");
   });
 
+
+  
+
   it("shows service names on page", () => {
     cy.contains(/ARV Refills/i).should("exist");
     cy.contains(/Counselling/i).should("exist");
@@ -88,3 +91,4 @@ describe("Dashboard Page", () => {
     cy.contains(/Appointments/i).should("exist");
   });
 });
+})
